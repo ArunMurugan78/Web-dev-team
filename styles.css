@@ -1,0 +1,25 @@
+        .back {
+            background-image: url("https://hackernoon.com/hn-images/1*Vv0HNvRhU0ihKVaBIpDUww.jpeg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            width: 100%;
+        }
+        
+        .box {
+            background-color: rgba(7, 13, 133, 0.7);
+            color: white;
+            margin: 0;
+        }
+        
+        .back2 {
+            background-image: url("./tce-2.png");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            /* background: linear-gradient(90deg, blue, pink); */
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
