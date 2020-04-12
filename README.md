@@ -1,4 +1,4 @@
 # Web-dev-team
 
+To create a website fo CSE dept
 
-This repository is for creating a website by collaborating
