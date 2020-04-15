@@ -1,0 +1,97 @@
+.Events {
+  background-color:#77d8d8;
+  margin-left:0;
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  margin-top: 0;
+
+}
+
+.inside {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.Winners {
+  margin-left: 10px;
+  margin-top: 45px;
+}
+
+.winnerlist {
+  display: table;
+  border-collapse: separate;
+  border-spacing: 20px;
+  border-color: gray;
+}
+
+h2 {
+  color: blue;
+}
+
+.myButton {
+  background-color:  #ff1e56;
+  border-radius: 20px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 27px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #ff1e56;
+}
+
+.myButton:hover {
+  background-color: #ffac41;
+  color: white;
+  text-decoration: none;
+}
+
+.myButton:active {
+  position: relative;
+  top: 50%;
+}
+.myButton{
+  margin-top: 2%;
+  margin-bottom: 1.75%;
+  margin-left: 42%;
+}
+.table{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.tm{
+  color: #EAF6F6;
+  margin-top: 10px;
+  margin-left: 45%;
+  font-size: 0.85rem;
+  padding: 20px 0;
+}
+.bottom-container{
+  background-color: #5568f8;
+  padding: 20px ;
+  padding-bottom: 5px;
+}
+.carousel-item{
+  height: 300px;
+}
+.d-block{
+  margin-top: 70px;
+  margin-left: 100px;
+  height: 120px;
+  width: 120px;
+}
+.intro{
+  text-align: center;
+}
+ul{
+  color:#202040;
+}
+.e{
+  color:#202040;
+}
+.ue{
+  color:#202040;
+}
