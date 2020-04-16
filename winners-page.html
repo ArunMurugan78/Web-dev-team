@@ -10,6 +10,14 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   <link rel="shortcut icon" href="logo.png">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="flexslider.css" type="text/css">
+  <script src="jquery.flexslider.js"></script>
+  <script type="text/javascript" charset="utf-8">
+  $( document ).ready(function() {
+  $('.flexslider').flexslider({
+    animation: "slide"
+  })});
+  </script>
   <title>TCE-CSE</title>
 </head>
 
@@ -33,50 +41,46 @@
     </nav>
   </div>
 
+  
+  <div  class="flexslider">
+      <ul  class="slides" style="color:white">
+        <li style="background-color:#fb7b6b;" >
+        <div class="row text-center justify-content-center align-items-center">
+        <div class="col-auto">
+          <img  src="avatar.png" class="ml-2" alt="First slide" style="width:150px;height:auto;margin-top:50px;margin-bottom:50px;">
+          </div>
+          <div class="col-auto">
+          <div class="h5">Coder of the Month</div>
+          Sasha
+          </div>
+          </div>
+        </li>
+        <li style="background-color:#fb7b6b;" >
+        <div class="row text-center justify-content-center align-items-center">
+        <div class="col-auto">
+          <img  src="avatar.png" class="ml-2" alt="First slide" style="width:150px;height:auto;margin-top:50px;margin-bottom:50px;">
+          </div>
+          <div class="col-auto">
+          <div class="h5">Innovator of the Month</div>
+          Tom Cruise
+          </div>
+          </div>
+        </li>
+        <li style="background-color:#fb7b6b;" >
+        <div class="row text-center justify-content-center align-items-center">
+        <div class="col-auto">
+          <img  src="avatar.png" class="ml-2" alt="First slide" style="width:150px;height:auto;margin-top:50px;margin-bottom:50px;">
+          </div>
+          <div class="col-auto">
+          <div class="h5">Developer of the Month</div>
+          Rose
+          </div>
+          </div>
+        </li>
+      </ul>
+    </div> 
   <div class="middle-container">
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="5000">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active" style="background-color:#fb7b6b;">
-          <img class="d-block" src="avatar.png" alt="First slide">
-          <div class="carousel-caption d-none d-xs-block">
-          <h5 class="text-center" style="color:white">Coder of the Month</h5>
-          </div>
-          <div class="carousel-caption d-none d-md-block">
-            <p class="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              Duis.
-            </p>
-             <h5>Coder of the Month</h5>
-            <p>Tom</p>
-          </div>
-        </div>
-        <div class="carousel-item" style="background-color:#fb7b6b;">
-          <img class="d-block" src="avatar.png" alt="Second slide">
-          <div class="carousel-caption d-none d-md-block">
-            <p class="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              Duis.
-            </p>
-            <h5>Developer of the Month</h5>
-            <p>Dick</p>
-          </div>
-        </div>
-        <div class="carousel-item" style="background-color:#fb7b6b;">
-          <img class="d-block " src="avatar.png" alt="Third slide">
-
-          <div class="carousel-caption d-none d-md-block">
-            <p class="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              Duis.
-            </p>
-            <h5>Innovator of the Month</h5>
-            <p>Harry</p>
-          </div>
-        </div>
-      </div>
-    </div>
+    
 
     <div class="Winners">
       <h2>Winners</h2>
